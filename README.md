@@ -3,6 +3,8 @@ Bot de Telegram que permite generar notificaciones usando una API REST y un clie
 
 🤯 Instalación ultra simplificada: bot funcionando en menos de 5 minutos
 
+![ada-siiga](https://github.com/user-attachments/assets/445aa91a-0115-4c9c-94cf-65eee431b8c3)
+
 ## Características increíbles
 - ✅ Envía mensajes a través de una API REST
 - ✅ Cliente Bash para enviar mensajes desde tus scripts
