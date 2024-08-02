@@ -141,7 +141,7 @@ def token_required(f):
           accept = request.headers.get('Accept', '')
           is_browser = 'text/html' in accept
           if is_browser:
-            return send_file('web/unauthorized.html')
+            return '', 404
           else:
             return jsonify({'message': 'Token invalido'}), 403
         return f(*args, **kwargs)
