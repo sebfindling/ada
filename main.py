@@ -130,7 +130,7 @@ def token_required(f):
           try:
             token = request.args.get('token') or request.form.get('token') or request.json.get('token')
           except Exception as e:
-              return send_file('web/unauthorized.html')
+            return '', 404
         if not token:
             return jsonify({'message': 'Token requerido'}), 403
         db = get_db()
