@@ -1,5 +1,5 @@
 # Ada ✨
-Bot de Telegram que permite generar notificaciones usando una API REST y un cliente Bash, por Sebastián Findling
+Bot de Telegram que permite generar notificaciones usando una API REST y un cliente Bash
 
 🤯 Instalación ultra simplificada: bot funcionando en menos de 5 minutos
 
