@@ -37,6 +37,11 @@ Levantar con PM2
 ```bash
 pm2 start -n ada "python main.py"
 ```
+Configurar servidor web con Nginx Proxy
+1. [Instalar docker en Debian](https://docs.docker.com/engine/install/debian/)
+2. [Instalar Nginx Proxy](https://www.notion.so/opaito/docker-nginx-proxy-manager-ui-1213b18d779880b78ffdceeef72c3dca?pvs=4)
+
+---
 
 ## Panel administrativo
 El panel administrativo se encuentra en [http://localhost:3839](http://localhost:3839) (o cualquier otra URL pública que configures).
