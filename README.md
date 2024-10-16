@@ -39,7 +39,7 @@ pm2 start -n ada "python main.py"
 ```
 Configurar servidor web con Nginx Proxy
 1. [Instalar docker en Debian](https://docs.docker.com/engine/install/debian/)
-2. [Instalar Nginx Proxy](https://www.notion.so/opaito/docker-nginx-proxy-manager-ui-1213b18d779880b78ffdceeef72c3dca?pvs=4)
+2. [Instalar Nginx Proxy](https://www.notion.so/opaito/docker-nginx-proxy-manager-ui-1213b18d779880b78ffdceeef72c3dca)
 
 ---
 
