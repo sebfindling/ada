@@ -25,6 +25,19 @@ source .venv/bin/activate
 python3 main.py
 ```
 
+## Correr en la nube (PM2)
+Instalar Node y PM2
+```bash
+curl -fsSL https://fnm.vercel.app/install | bash
+source ~/.bashrc
+fnm install --lts
+npm i -g pm2
+```
+Levantar con PM2
+```bash
+pm2 start -n ada "python main.py"
+```
+
 ## Panel administrativo
 El panel administrativo se encuentra en [http://localhost:3839](http://localhost:3839) (o cualquier otra URL pública que configures).
 
