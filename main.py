@@ -5,6 +5,7 @@
 
 import telebot
 import flask
+import http
 import sqlite3
 import base64
 import requests
@@ -20,6 +21,8 @@ from flask import Flask, send_file, request, render_template, jsonify, g
 from threading import Thread
 from datetime import datetime, timedelta
 from importlib import reload
+
+http.server.BaseHTTPRequestHandler.version_string= lambda x: "Ada 1.3"
 
 def run_setup():
   try:
